@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Reservación de Hotel 02</title>
+</head>
+<body class="center">
+    <main class="center container">
+        <section class="form">
+            <form action="">
+                <div class="form-div destination">
+                    <label for="destination">Detination</label>
+                    <input type="text" id="destination" name="destination" placeholder="Country, ZIP, city ...">
+                </div>
+                <div class="form-div checkin">
+                    <label for="checkin">Check In</label>
+                    <input type="date" id="checkin" name="check" placeholder="dd/mm/aaaa" required>
+                </div>
+                <div class="form-div checkout">
+                    <label for="checkout">Check out</label>
+                    <input type="date" id="checkout" name="check" placeholder="dd/mm/aaaa" required>
+                </div>
+                <div class="form-div guest">
+                    <label for="guest">Guests</label>
+                    <input type="number" id="guest" name="guest" value="1" min="1" max="3">
+                </div>
+                <button class="submit">
+                    Check Availability
+                </button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
